@@ -143,6 +143,12 @@
                     <artifactId>maven-surefire-plugin</artifactId>
                     <version>2.14.1</version>
                     <configuration>
+                    	<systemProperties>
+							<property>
+								<name>allure.results.directory</name>
+								<value>${project.build.directory}/allure-results</value>
+							</property>
+						</systemProperties>
                         <!-- <testClassesDirectory>s360UIAutomationCC/src/main/java</testClassesDirectory> -->
                         <testSourceDirectory>s360UIAutomationCC/src/main/java</testSourceDirectory>
                         <includes>
