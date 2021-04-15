@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="Hw3.RunTest" time="61.317" tests="11" errors="0" skipped="0" failures="0">
+<testsuite name="Hw3.RunTest" time="55.439" tests="11" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="java.vm.version" value="15+36-1562"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-15\bin"/>
-    <property name="maven.multiModuleProjectDirectory" value="G:\Univer\Тестирование\Epum\Labs\Hw3"/>
+    <property name="maven.multiModuleProjectDirectory" value="G:\Univer\Тестирование\Epum\Hw4Special\Hw4\Hw3"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
     <property name="java.vendor.url" value="https://java.oracle.com/"/>
     <property name="guice.disable.misplaced.annotation.check" value="true"/>
@@ -15,7 +15,7 @@
     <property name="user.country" value="RU"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="user.dir" value="G:\Univer\Тестирование\Epum\Labs\Hw3"/>
+    <property name="user.dir" value="G:\Univer\Тестирование\Epum\Hw4Special\Hw4\Hw3"/>
     <property name="java.vm.compressedOopsMode" value="Zero based"/>
     <property name="java.runtime.version" value="15+36-1562"/>
     <property name="os.arch" value="amd64"/>
@@ -59,15 +59,15 @@
     <property name="sun.stdout.encoding" value="cp866"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase name="runScenario" classname="Hw3.RunTest" time="5.586"/>
-  <testcase name="runScenario" classname="Hw3.RunTest" time="4.633"/>
-  <testcase name="runScenario" classname="Hw3.RunTest" time="6.339"/>
-  <testcase name="runScenario" classname="Hw3.RunTest" time="8.663"/>
-  <testcase name="runScenario" classname="Hw3.RunTest" time="4.85"/>
-  <testcase name="runScenario" classname="Hw3.RunTest" time="4.56"/>
-  <testcase name="runScenario" classname="Hw3.RunTest" time="4.498"/>
-  <testcase name="runScenario" classname="Hw3.RunTest" time="6.262"/>
-  <testcase name="runScenario" classname="Hw3.RunTest" time="6.221"/>
-  <testcase name="runScenario" classname="Hw3.RunTest" time="4.479"/>
-  <testcase name="runScenario" classname="Hw3.RunTest" time="5.226"/>
+  <testcase name="runScenario" classname="Hw3.RunTest" time="5.098"/>
+  <testcase name="runScenario" classname="Hw3.RunTest" time="4.451"/>
+  <testcase name="runScenario" classname="Hw3.RunTest" time="6.095"/>
+  <testcase name="runScenario" classname="Hw3.RunTest" time="5.842"/>
+  <testcase name="runScenario" classname="Hw3.RunTest" time="4.493"/>
+  <testcase name="runScenario" classname="Hw3.RunTest" time="5.767"/>
+  <testcase name="runScenario" classname="Hw3.RunTest" time="4.142"/>
+  <testcase name="runScenario" classname="Hw3.RunTest" time="4.08"/>
+  <testcase name="runScenario" classname="Hw3.RunTest" time="4.785"/>
+  <testcase name="runScenario" classname="Hw3.RunTest" time="4.111"/>
+  <testcase name="runScenario" classname="Hw3.RunTest" time="6.575"/>
 </testsuite>
