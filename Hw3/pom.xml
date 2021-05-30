@@ -146,7 +146,7 @@
                     	<systemProperties>
                             <property>
                                 <name>allure.results.directory</name>
-                                <value>${project.build.directory}/allure-results</value>
+                                <value>G:\Univer\Тестирование\Epum\Hw4Special\Hw4\Hw3/allure-results</value>
                             </property>
                             <property>
                                 <name>allure.results.directory</name>
