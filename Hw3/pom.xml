@@ -146,12 +146,12 @@
                     	<systemProperties>
                             <property>
                                 <name>allure.results.directory</name>
-                                <value>G:\Univer\Тестирование\Epum\Hw4Special\Hw4\Hw3/allure-results</value>
+                                <value>${project.build.directory}/allure-results</value>
                             </property>
-                            <property>
-                                <name>allure.results.directory</name>
-                                <value>C:\Program Files (x86)\Jenkins\workspace\Suite_runner\allure-results</value>
-                            </property>
+<!--                            <property>-->
+<!--                                <name>allure.results.directory</name>-->
+<!--                                <value>C:\Program Files (x86)\Jenkins\workspace\Suite_runner\allure-results</value>-->
+<!--                            </property>-->
 						</systemProperties>
                         <!-- <testClassesDirectory>s360UIAutomationCC/src/main/java</testClassesDirectory> -->
                         <testSourceDirectory>s360UIAutomationCC/src/main/java</testSourceDirectory>
