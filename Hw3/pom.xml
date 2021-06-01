@@ -170,6 +170,11 @@
                         <includes>
                             <include>**/*RunTest.java</include>
                         </includes>
+                        <systemPropertyVariables>
+                            <allure.results.directory>${project.build.directory}/allure-results</allure.results.directory>
+                            <allure.link.issue.pattern>https://example.org/browse{}</allure.link.issue.pattern>
+                            <allure.link.tms.pattern>https://example.org/browse{}</allure.link.tms.pattern>
+                        </systemPropertyVariables>
                         <!-- <excludes> <exclude>**/*RunCukesTest.java</exclude> </excludes> -->
                     </configuration>
                 </plugin>
