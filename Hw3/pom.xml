@@ -102,6 +102,18 @@
             <version>2.13.9</version>
         </dependency>
 
+        <dependency>
+            <groupId>org.slf4j</groupId>
+            <artifactId>slf4j-api</artifactId>
+            <version>${slf4j.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.slf4j</groupId>
+            <artifactId>slf4j-simple</artifactId>
+            <version>${slf4j.version}</version>
+        </dependency>
+
     </dependencies>
 
     <properties>
@@ -109,7 +121,8 @@
         <maven.compiler.target>1.8</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
-        <aspectj.version>1.8.10</aspectj.version>
+        <aspectj.version>1.9.5</aspectj.version>
+        <slf4j.version>1.6.1</slf4j.version>
     </properties>
 
     <build>
@@ -162,7 +175,7 @@
                     -Dcucumber.options="--plugin io.qameta.allure.cucumber4jvm.AllureCucumber4Jvm"
                 </argLine>
                 <suiteXmlFiles>
-                  <suiteXmlFile>./test_suite/main_test_suite.xml</suiteXmlFile>
+                  <suiteXmlFile>./main_test_suite.xml</suiteXmlFile>
                 </suiteXmlFiles>
                 <systemPropertyVariables>
                     <allure.results.directory>${project.build.directory}/allure-results</allure.results.directory>
